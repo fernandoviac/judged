@@ -1,0 +1,26 @@
+{
+  "name": "@fernandoviac/judged",
+  "version": "0.1.0",
+  "description": "Focused terminal interface for typed judgments from TypeSafe System One.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "judged": "./judged.ts"
+  },
+  "files": [
+    "judged.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoviac/judged.git"
+  }
+}
